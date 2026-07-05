@@ -3,6 +3,7 @@
 A **100% local**, privacy-first Retrieval-Augmented Generation (RAG) chatbot for healthcare.
 
 Upload your hospital's Standard Operating Procedures (SOPs), clinical guidelines, and policy documents (PDF / CSV) into a local knowledge base, then ask questions in natural language. The assistant answers **strictly from your documents** — nothing is sent to the cloud, and it refuses to answer anything not backed by the uploaded material.
+Demo Video Link : https://www.loom.com/share/f660d3132cdb4d9aad51fcb339b1794b
 
 > **Why local?** Embeddings, vector storage, and LLM inference all run on your machine via [Ollama](https://ollama.com). No patient data or clinical documents ever leave the device.
 
