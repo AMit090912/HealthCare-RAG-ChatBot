@@ -1,0 +1,19 @@
+# Web framework
+fastapi
+uvicorn[standard]
+python-multipart          # required for file uploads (UploadFile / File)
+pydantic-settings
+
+# RAG stack (LangChain)
+langchain-core
+langchain-community
+langchain-classic         # create_history_aware_retriever / create_retrieval_chain
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+langchain-ollama
+
+# Models & document loading
+sentence-transformers     # backs the all-MiniLM-L6-v2 embeddings
+chromadb                  # vector store
+pymupdf                   # PyMuPDFLoader

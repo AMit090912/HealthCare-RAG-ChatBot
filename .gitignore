@@ -1,0 +1,36 @@
+# Python
+backend/venv/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Vector store (regenerated locally from uploaded documents)
+backend/chroma_db/
+
+# Uploaded / sample source documents (kept local, not published)
+backend/data/
+
+# Node
+frontend/node_modules/
+backend/node_modules/
+
+# Next.js
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
